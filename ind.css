@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(penguin.avif);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        background-blend-mode: multiply;
+       
+}
+
+li{
+    list-style: none;
+    color: white;
+}
+h1{
+    color: white;
+}
+
+.side-bar{
+    position:fixed;
+    background: #8ab9f1;
+    width: 20vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-bar .logo-name{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.side-bar li{
+    font-size: 24px;
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+}
+
+.side-bar li:hover{
+    background: white;
+    color: #47143a;
+}
+
